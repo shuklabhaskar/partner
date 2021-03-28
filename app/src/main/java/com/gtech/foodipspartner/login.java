@@ -15,14 +15,4 @@ public class login extends AppCompatActivity {
         setContentView(R.layout.activity_login);
     }
 
-    public void authenticateUser(View view) {
-
-
-
-    }
-
-    public void goToRegister(View view) {
-        Intent send = new Intent(login.this, Register.class);
-        startActivity(send);
-    }
 }
